@@ -6,7 +6,7 @@ public class Setting : MonoBehaviour
 {
     // Start is called before the first frame update
     private Material skybox;
-    private float rotationSpeed = 0.5f;
+    private float rotationSpeed = 2.5f;
     void Start() {
         skybox = RenderSettings.skybox;
     }
