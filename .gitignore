@@ -5,9 +5,9 @@
 /DisplaySystem/[Bb]uilds/
 /DisplaySystem/[Pp]rojectSettings/ProjectVersion.txt
 /DisplaySystem/Assets/AssetStoreTools*
-/DisplaySystem/Test Program\ScanEffect-master/[Ll]ibrary/*
-/DisplaySystem/Test Program\LineRenderer/[Ll]ibrary/*
-/DisplaySystem/Test Program\CloudEffect/[Ll]ibrary/*
+/Test Program/ScanEffect-master/[Ll]ibrary/
+/Test Program/LineRenderer/[Ll]ibrary/
+/Test Program/CloudEffect/[Ll]ibrary/
 
 
 
