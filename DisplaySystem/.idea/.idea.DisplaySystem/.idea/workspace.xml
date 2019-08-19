@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a02e8f6-e0d1-4729-abe2-45d46cba2576" name="Default Changelist" comment="" />
+    <list default="true" id="0a02e8f6-e0d1-4729-abe2-45d46cba2576" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Setting/Setting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Setting/Setting.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,17 +13,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Setting/Setting.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="132">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
               <folding>
-                <marker date="1565848215845" expanded="false" signature="6:78" ph="..." />
-                <marker date="1565848215845" expanded="true" signature="116:556" ph="{...}" />
-                <marker date="1565848215845" expanded="true" signature="258:305" ph="{...}" />
-                <marker date="1565848215845" expanded="true" signature="363:399" ph="{...}" />
-                <marker date="1565848215845" expanded="true" signature="446:554" ph="{...}" />
+                <marker date="1566204875744" expanded="false" signature="6:78" ph="..." />
+                <marker date="1566204875744" expanded="true" signature="116:555" ph="{...}" />
+                <marker date="1566204875744" expanded="true" signature="257:304" ph="{...}" />
+                <marker date="1566204875744" expanded="true" signature="362:398" ph="{...}" />
+                <marker date="1566204875744" expanded="true" signature="445:553" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -42,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LightTrace.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="88">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <marker date="1565229675000" expanded="false" signature="6:127" ph="..." />
                 <marker date="1565229675000" expanded="true" signature="169:2930" ph="{...}" />
@@ -108,14 +111,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,11 +167,12 @@
       <workItem from="1565848207453" duration="225000" />
       <workItem from="1565849931177" duration="7000" />
       <workItem from="1565868774774" duration="52000" />
+      <workItem from="1566204864113" duration="590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284000" />
+    <option name="totallyTimeSpent" value="874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,20 +237,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Setting/Setting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <marker date="1565848215845" expanded="false" signature="6:78" ph="..." />
-            <marker date="1565848215845" expanded="true" signature="116:556" ph="{...}" />
-            <marker date="1565848215845" expanded="true" signature="258:305" ph="{...}" />
-            <marker date="1565848215845" expanded="true" signature="363:399" ph="{...}" />
-            <marker date="1565848215845" expanded="true" signature="446:554" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/WireFrame.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -263,8 +253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LightTrace.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="88">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <marker date="1565229675000" expanded="false" signature="6:127" ph="..." />
             <marker date="1565229675000" expanded="true" signature="169:2930" ph="{...}" />
@@ -287,6 +277,20 @@
             <marker date="1565229675000" expanded="true" signature="2412:2603" ph="{...}" />
             <marker date="1565229675000" expanded="true" signature="2531:2593" ph="{...}" />
             <marker date="1565229675000" expanded="true" signature="2667:2925" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Setting/Setting.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <marker date="1566204875744" expanded="false" signature="6:78" ph="..." />
+            <marker date="1566204875744" expanded="true" signature="116:555" ph="{...}" />
+            <marker date="1566204875744" expanded="true" signature="257:304" ph="{...}" />
+            <marker date="1566204875744" expanded="true" signature="362:398" ph="{...}" />
+            <marker date="1566204875744" expanded="true" signature="445:553" ph="{...}" />
           </folding>
         </state>
       </provider>
