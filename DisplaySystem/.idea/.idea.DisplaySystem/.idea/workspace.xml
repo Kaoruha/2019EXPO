@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a02e8f6-e0d1-4729-abe2-45d46cba2576" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Setting/UIClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Setting/UIClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/move.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Materials/CosmicCoolCloud.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Materials/CosmicCoolCloud.mat" afterDir="false" />
-    </list>
+    <list default="true" id="0a02e8f6-e0d1-4729-abe2-45d46cba2576" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/move.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="192">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <marker date="1566447849594" expanded="false" signature="6:78" ph="..." />
                 <marker date="1566447849594" expanded="true" signature="108:648" ph="{...}" />
@@ -264,12 +256,12 @@
       <workItem from="1566372529056" duration="5666000" />
       <workItem from="1566438057017" duration="518000" />
       <workItem from="1566438639393" duration="8113000" />
-      <workItem from="1566446856174" duration="987000" />
+      <workItem from="1566446856174" duration="2202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16158000" />
+    <option name="totallyTimeSpent" value="17373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -544,8 +536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/move.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="192">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <marker date="1566447849594" expanded="false" signature="6:78" ph="..." />
             <marker date="1566447849594" expanded="true" signature="108:648" ph="{...}" />
