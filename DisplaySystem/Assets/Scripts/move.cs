@@ -4,25 +4,33 @@ using UnityEngine;
 
 public class move : UIClass {
     
-    public bool shouldIn = false;
     
     void Start() {
-        SetInitialPos(new Vector2(100,100));
-        StartCoroutine(Move());
+        SetInitialPos(new Vector2(0,0));
+//        StartCoroutine(Move());
     }
 
     void Update()
     {
-        
+        RCMove(new Vector2(400,400));
     }
 
-    private IEnumerator Move() {
-        while (true) {
-            RCMove(new Vector3(0,0,0));
-            yield return new WaitForSeconds(0.01f);
-        }
-        
+//    private IEnumerator Move() {
+//        while (true) {
+//            RCMove(new Vector2(400,400));
+//            yield return new WaitForSeconds(0.01f);
+//        }
+//        
+//    }
+    
+    public void clickedIn() {
+        SetState(RCUIState.shouldIN);
     }
+
+    public void clickedOut() {
+        SetState(RCUIState.shouldOut);
+    }
+        
 
 
 
