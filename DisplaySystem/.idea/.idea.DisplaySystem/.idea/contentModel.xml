@@ -154,17 +154,17 @@
           <e p="LightTrace.cs" t="Include" />
           <e p="LineMaker.cs" t="Include" />
           <e p="MeshGenerater.cs" t="Include" />
-          <e p="move.cs" t="Include" />
           <e p="Setting" t="Include">
             <e p="CameraControl.cs" t="Include" />
             <e p="CLock.cs" t="Include" />
+            <e p="Date.cs" t="Include" />
             <e p="EdgeDetectNormalsAndDepth.cs" t="Include" />
+            <e p="GUIScript.cs" t="Include" />
             <e p="InitialPrefabs.cs" t="Include" />
             <e p="PostEffectsBase.cs" t="Include" />
             <e p="Setting.cs" t="Include" />
             <e p="UIClass.cs" t="Include" />
             <e p="UIController.cs" t="Include" />
-            <e p="UIScript.cs" t="Include" />
           </e>
         </e>
         <e p="Shaders" t="Include">
