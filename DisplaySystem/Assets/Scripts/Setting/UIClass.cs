@@ -86,7 +86,7 @@ public class UIClass : MonoBehaviour {
         shouldStay
     }
 
-    private   RCUIState _RCUIState;
+    private   RCUIState _RCUIState = RCUIState.shouldStay;
 
     public void SetState(RCUIState state) {
         _RCUIState = state;
