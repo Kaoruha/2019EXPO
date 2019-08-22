@@ -86,7 +86,7 @@ public class UIClass : MonoBehaviour {
         shouldStay
     }
 
-    public  RCUIState _RCUIState;
+    private   RCUIState _RCUIState;
 
     public void SetState(RCUIState state) {
         _RCUIState = state;
@@ -96,7 +96,7 @@ public class UIClass : MonoBehaviour {
 
     
 
-    private float _RCUIMoveSpeed = 2f;
+    private float _RCUIMoveSpeed = 4f;
 
     public void SetMoveSpeed(float speed) {
         if (speed >= 0f) {

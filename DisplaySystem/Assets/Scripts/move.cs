@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class move : UIClass {
+    public Vector2 initialPos;
+    public Vector2 targetPos;
     
     
     void Start() {
-        SetInitialPos(new Vector2(0,0));
+        SetInitialPos(initialPos);
 //        StartCoroutine(Move());
     }
 
     void Update()
     {
-        RCMove(new Vector2(400,400));
+        RCMove(targetPos);
     }
 
 //    private IEnumerator Move() {
