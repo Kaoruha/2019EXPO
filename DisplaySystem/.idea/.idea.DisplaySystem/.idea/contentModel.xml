@@ -3,6 +3,8 @@
   <component name="ContentModelStore">
     <e p="C:\Users\xp\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\xp\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_DisplaySystem.-1048403173.00" t="ExcludeRecursive" />
+    <e p="C:\Users\xp\AppData\local\Android\Sdk\platforms\android-28\data\res" t="IncludeRecursive" />
+    <e p="C:\Users\xp\AppData\local\Android\Sdk\sources\android-28" t="IncludeRecursive" />
     <e p="F:\2019工博会\2019EXPO\DisplaySystem" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
