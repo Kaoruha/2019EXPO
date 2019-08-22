@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\xp\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\xp\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_DisplaySystem.-1048403173.00" t="ExcludeRecursive" />
+    <e p="C:\Users\xp\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\xp\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_DisplaySystem.-1048403173.00" t="ExcludeRecursive" />
     <e p="C:\Users\xp\AppData\local\Android\Sdk\platforms\android-28\data\res" t="IncludeRecursive" />
     <e p="C:\Users\xp\AppData\local\Android\Sdk\sources\android-28" t="IncludeRecursive" />
     <e p="F:\2019工博会\2019EXPO\DisplaySystem" t="IncludeRecursive">
@@ -151,20 +151,24 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="GUI" t="Include">
+            <e p="Case.cs" t="Include" />
+            <e p="CLock.cs" t="Include" />
+            <e p="Date.cs" t="Include" />
+            <e p="UIClass.cs" t="Include" />
+            <e p="UIController.cs" t="Include" />
+            <e p="UpDownSpeed.cs" t="Include" />
+          </e>
           <e p="LightTrace.cs" t="Include" />
           <e p="LineMaker.cs" t="Include" />
           <e p="MeshGenerater.cs" t="Include" />
           <e p="Setting" t="Include">
             <e p="CameraControl.cs" t="Include" />
-            <e p="CLock.cs" t="Include" />
-            <e p="Date.cs" t="Include" />
             <e p="EdgeDetectNormalsAndDepth.cs" t="Include" />
             <e p="GUIScript.cs" t="Include" />
             <e p="InitialPrefabs.cs" t="Include" />
             <e p="PostEffectsBase.cs" t="Include" />
             <e p="Setting.cs" t="Include" />
-            <e p="UIClass.cs" t="Include" />
-            <e p="UIController.cs" t="Include" />
           </e>
         </e>
         <e p="Shaders" t="Include">
@@ -174,12 +178,9 @@
         </e>
       </e>
       <e p="DisplaySystem.sln" t="IncludeFlat" />
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>
