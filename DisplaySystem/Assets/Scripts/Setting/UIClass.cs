@@ -3,115 +3,210 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class UIClass : MonoBehaviour {
-    
-    private string _name;
-    private int _id;
+    #region Name声明
 
-    
-    //Name的Get、Set方法
+    private string _RCUIName;
+
     public void SetName(string name) {
-        if (this._name == null) {
-            this._name = name;
+        if (this._RCUIName == null) {
+            this._RCUIName = name;
         }
     }
 
     public string GetName() {
-        if (this._name != null) {
-            return this._name;
+        if (this._RCUIName != null) {
+            return this._RCUIName;
         }
 
         return null;
     }
+
+    #endregion
+
     
+    
+    #region ID声明
+
     //ID的Get、Set方法
+    private int _RCUIID;
+
     public void SetID(int id) {
-        if (this._id == null) {
-            this._id = id;
+        if (_RCUIID == null) {
+            _RCUIID = id;
         }
-        
     }
 
     public int GetID() {
-        if (this._id != null) {
-            return this._id;
-
+        if (this._RCUIID != null) {
+            return this._RCUIID;
         }
-        return 0;
 
+        return 0;
     }
 
+    #endregion
 
+    
+    
+    #region UIPosition
+    
     //UI位置
-    public enum Position {
+
+    public enum RCUIPosition {
         screenLeft,
         screenRight,
         ScreenTop,
         SreenBottom
-        
     }
 
-    private Position _UIPosition;
+    private RCUIPosition _RCUIPosition;
 
-    public void SetPosition(Position pos) {
-        this._UIPosition = pos;
+    public void SetPosition(RCUIPosition pos) {
+        this._RCUIPosition = pos;
     }
 
-    public Position GetPositon() {
-        if (_UIPosition != null) {
-            return _UIPosition;
-
+    public RCUIPosition GetPositon() {
+        if (_RCUIPosition != null) {
+            return _RCUIPosition;
         }
 
-        return Position.ScreenTop;
-
+        return RCUIPosition.ScreenTop;
     }
 
+    #endregion
 
     
     
-    //UI面板移入
-    private float _moveSpeed = 1f;
+    #region UIMove
+    
+    //UI面板移动相关
+    public enum RCUIState {
+        shouldIN,
+        shouldOut,
+        shouldStay
+    }
+
+    public  RCUIState _RCUIState;
+
+    public void SetState(RCUIState state) {
+        _RCUIState = state;
+        Debug.Log("Changed to :"+state);
+        Debug.Log(_RCUIState);
+    }
+
+    
+
+    private float _RCUIMoveSpeed = 2f;
 
     public void SetMoveSpeed(float speed) {
         if (speed >= 0f) {
-            _moveSpeed = speed;
+            _RCUIMoveSpeed = speed;
         }
     }
 
-    private float _interval = 0.2f;
+    private float _RCUIinterval = 0.2f;
+
+    public float GetInterval() {
+        return _RCUIinterval;
+    }
+
     public void SetInterval(float time) {
         if (time >= 0f) {
-            _interval = time;
+            _RCUIinterval = time;
         }
     }
 
-    private float _offSet = 0.5f;
+    private float _RCUIArriveOffSet = 1f;
 
-    private Vector2 _UGUIPOS;
-    private Vector2 _InitialPos = new Vector2(0,0);
-
+    private Vector2 _RCUGUIPos = new Vector2(0,0);
+    private Vector2 _RCUIInitialPos = new Vector2(0, 0);
+    private float _RCInitialDis = 0f;
+    
     public void SetInitialPos(Vector2 initialPos) {
-        _InitialPos = initialPos;
+        _RCUIInitialPos = initialPos;
+        transform.position = initialPos;
+    }
+    private void SetInitialDis(Vector2 destination) {
+        _RCInitialDis = Vector2.Distance(destination, _RCUIInitialPos);
     }
 
-    public Vector2 GetInitialPos() {
-        return _InitialPos;
+    
 
+    public Vector2 GetInitialPos() {
+        return _RCUIInitialPos;
     }
 
 
     public void RCMove(Vector2 Destination) {
-        _UGUIPOS = new Vector2(transform.position.x , transform.position.y);
+//        Debug.Log(_RCUIState);
+        //Initial Distance
+        if (_RCInitialDis == 0f) {
+            SetInitialDis(Destination);
+        }
         
-        if (Vector3.Distance(transform.position ,Destination) <= _offSet) {
-            transform.position = Destination;
+        //Update UIPos
+        _RCUGUIPos.x =transform.position.x;
+        _RCUGUIPos.y=transform.position.y;
+
+
+
+        if (_RCUIState == RCUIState.shouldOut) {
+            Debug.Log("1");
+            
+        }
+        else if (_RCUIState == RCUIState.shouldIN) {
+            Debug.Log("2");
+        }
+        else if (_RCUIState == RCUIState.shouldStay) {
+            Debug.Log("3");
         }
         else {
-            transform.Translate((Destination - _UGUIPOS) * _moveSpeed * Time.deltaTime);
+            Debug.Log("Error");
         }
+        
+        
+        switch (_RCUIState) {
+            case RCUIState.shouldIN:
+                if (Vector2.Distance(_RCUGUIPos, _RCUIInitialPos) >= _RCInitialDis) {
+                    transform.position = Destination;
+                    _RCUIState = RCUIState.shouldStay;
+                }
+                else {
+                    transform.Translate((Destination - _RCUIInitialPos) * _RCUIMoveSpeed * Time.deltaTime);
+                }
+                break;
+            
+            case RCUIState.shouldOut:
+                if (Vector2.Distance(_RCUGUIPos, Destination) >= _RCInitialDis) {
+                    transform.position = _RCUIInitialPos;
+                    _RCUIState = RCUIState.shouldStay;
+                }
+                else {
+                    transform.Translate((_RCUIInitialPos - Destination) * _RCUIMoveSpeed * Time.deltaTime);
+                }
+                break;
+            
+            
+            case RCUIState.shouldStay:
+                break;
+            
+        }
+        
+        
+        
+        
+           
+            
+        
+        
+        
+        
     }
 
 
 
+    #endregion
 
+
+    
 }
