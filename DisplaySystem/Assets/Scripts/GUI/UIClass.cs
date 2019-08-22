@@ -6,14 +6,14 @@ public class UIClass : MonoBehaviour {
  
     #region UIMove
     
-    //UI面板移动相关
+    //UI move
     public enum RCUIState {
         shouldIN,
         shouldOut,
         shouldStay
     }
 
-    private   RCUIState _RCUIState = RCUIState.shouldStay;
+    private RCUIState _RCUIState = RCUIState.shouldStay;
 
     public void SetState(RCUIState state) {
         _RCUIState = state;
@@ -21,7 +21,7 @@ public class UIClass : MonoBehaviour {
 
     
 
-    private float _RCUIMoveSpeed = 4f;
+    private float _RCUIMoveSpeed = 5f;
 
     public void SetMoveSpeed(float speed) {
         if (speed >= 0f) {
@@ -64,9 +64,9 @@ public class UIClass : MonoBehaviour {
 
     public void RCMove(Vector2 Destination) {
         //Initial Distance
-        if (_RCInitialDis == 0f) {
+//        if (_RCInitialDis == 0f) {
             SetInitialDis(Destination);
-        }
+//        }
         
         //Update UIPos
         _RCUGUIPos.x =transform.position.x;

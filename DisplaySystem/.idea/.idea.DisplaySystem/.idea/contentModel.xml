@@ -151,6 +151,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Cloud.cs" t="Include" />
+          <e p="CloudName.cs" t="Include" />
           <e p="GUI" t="Include">
             <e p="Case.cs" t="Include" />
             <e p="CLock.cs" t="Include" />

@@ -45,24 +45,7 @@ public class UIController : MonoBehaviour {
         }
     }
 
-
-    #region 单例
-    public static UIController _instance;
-
-    public static UIController instance {
-        get {
-            if (_instance == null) {
-                _instance = new UIController();
-            }
-
-            return _instance;
-        }
-        
-    }
     
-
-    #endregion
-
 
 
 

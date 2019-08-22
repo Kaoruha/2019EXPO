@@ -44,7 +44,7 @@ public class CLock : MonoBehaviour {
         
     }
 
-    //blinblin冒号动画
+    //blin Effect
     private IEnumerator blin() {
         while (true) {
             colons[0].SetActive(false);
@@ -60,11 +60,10 @@ public class CLock : MonoBehaviour {
         
     }
 
-    //初始化冒号集
+    //" : " Get
     private void getColons() {
         colons = new GameObject[2];
         int count = transform.childCount;
-        Debug.Log(count);
         for (int i = 0; i < count; i++) {
             colons[i] = transform.GetChild(i).gameObject;
         }
