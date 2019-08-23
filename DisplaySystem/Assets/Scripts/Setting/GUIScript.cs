@@ -49,7 +49,6 @@ public class GUIScript : UIClass {
     private void GetBorderColor() {
         UIController controller = transform.parent.GetComponent<UIController>();
         borderColor = controller.frameColor;
-        Debug.Log(borderColor.GetType());
     }
 
 
