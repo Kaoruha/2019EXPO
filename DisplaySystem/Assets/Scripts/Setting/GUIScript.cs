@@ -13,7 +13,7 @@ public class GUIScript : UIClass {
 
 
     private void Awake() {
-        SetInitialPos(initialPos);
+        SetInitialPos(initialPos,true);
         GetBorder();
     }
 
