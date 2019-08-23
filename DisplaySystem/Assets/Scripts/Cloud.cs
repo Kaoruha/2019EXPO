@@ -12,7 +12,6 @@ public class Cloud : MonoBehaviour {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hitInfo, 9999f)){
                 if ((hitInfo.transform == transform) && !EventSystem.current.IsPointerOverGameObject()){
-                    Debug.Log(hitInfo.transform);
                     shownCase.MoveIn();
                 }
             }
