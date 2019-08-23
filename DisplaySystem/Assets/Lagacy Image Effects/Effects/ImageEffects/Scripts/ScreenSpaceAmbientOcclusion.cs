@@ -61,8 +61,10 @@ namespace UnityStandardAssets.ImageEffects
 
         void Start()
         {
-            if (!SystemInfo.supportsImageEffects || !SystemInfo.SupportsRenderTextureFormat (RenderTextureFormat.Depth))
-            {
+#pragma warning disable 618
+	        if (!SystemInfo.supportsImageEffects || !SystemInfo.SupportsRenderTextureFormat (RenderTextureFormat.Depth))
+#pragma warning restore 618
+	        {
                 m_Supported = false;
                 enabled = false;
                 return;

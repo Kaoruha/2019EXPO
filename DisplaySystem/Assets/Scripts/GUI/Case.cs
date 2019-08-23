@@ -9,7 +9,7 @@ public class Case : UIClass {
     private Vector2 initialPos;
     private Vector2 targetPos;
     public UIController uiController;
-    private float _zoomSpeed = 4f;
+    private float _zoomSpeed = 3f;
 
     private float interval = 0.01f;
     private float targetZoom = 0f;

@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a02e8f6-e0d1-4729-abe2-45d46cba2576" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/Blur.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/Blur.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ContrastStretch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ContrastStretch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ImageEffectBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ImageEffectBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/PostEffectsBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/PostEffectsBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/CLock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/CLock.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/UIClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/UIClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/UIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Setting/GUIScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Setting/GUIScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Setting/PostEffectsBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Setting/PostEffectsBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Materials/CosmicCoolCloud.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Materials/CosmicCoolCloud.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,13 +25,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ImageEffectBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/UIClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/UpDownSpeed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cloud.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/WireFrame.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ContrastStretch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/GUIScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/Setting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/NoiseAndScratches.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/PostEffectsBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/Blur.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/PostEffectsBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightTrace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/UIController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,13 +56,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Setting/CLock.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/UpDownSpeed.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/UIController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Setting/GUIScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/CLock.cs" />
         <option value="$PROJECT_DIR$/Assets/Cloud.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CloudName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cloud.cs" />
+        <option value="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/PostEffectsBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Setting/PostEffectsBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/Blur.cs" />
+        <option value="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ContrastStretch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ImageEffectBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Setting/GUIScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/UIClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cloud.cs" />
       </list>
     </option>
   </component>
@@ -123,6 +137,7 @@
       <workItem from="1566462043365" duration="5107000" />
       <workItem from="1566467659258" duration="371000" />
       <workItem from="1566469338417" duration="11487000" />
+      <workItem from="1566530874138" duration="8250000" />
     </task>
     <servers />
   </component>

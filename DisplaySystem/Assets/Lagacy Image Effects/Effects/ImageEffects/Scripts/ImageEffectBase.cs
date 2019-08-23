@@ -17,7 +17,9 @@ namespace UnityStandardAssets.ImageEffects
         protected virtual void Start()
         {
             // Disable if we don't support image effects
+#pragma warning disable 618
             if (!SystemInfo.supportsImageEffects)
+#pragma warning restore 618
             {
                 enabled = false;
                 return;
