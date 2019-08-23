@@ -7,8 +7,10 @@
     <e p="C:\Users\xp\AppData\local\Android\Sdk\sources\android-28" t="IncludeRecursive" />
     <e p="F:\2019工博会\2019EXPO\DisplaySystem" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CloudManager.cs" t="Include" />
         <e p="Lagacy Image Effects" t="Include">
           <e p="Editor" t="Include">
             <e p="ImageEffects" t="Include">
@@ -150,14 +152,36 @@
             </e>
           </e>
         </e>
+        <e p="Plugins" t="Include">
+          <e p="LightJson" t="Include">
+            <e p="JsonArray.cs" t="Include" />
+            <e p="JsonObject.cs" t="Include" />
+            <e p="JsonValue.cs" t="Include" />
+            <e p="JsonValueType.cs" t="Include" />
+            <e p="Properties" t="Include">
+              <e p="AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="Serialization" t="Include">
+              <e p="JsonParseException.cs" t="Include" />
+              <e p="JsonReader.cs" t="Include" />
+              <e p="JsonSerializationException.cs" t="Include" />
+              <e p="JsonWriter.cs" t="Include" />
+              <e p="TextPosition.cs" t="Include" />
+              <e p="TextScanner.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
+          <e p="Class" t="Include">
+            <e p="CloudClass.cs" t="Include" />
+            <e p="UIClass.cs" t="Include" />
+          </e>
           <e p="Cloud.cs" t="Include" />
           <e p="CloudName.cs" t="Include" />
           <e p="GUI" t="Include">
             <e p="Case.cs" t="Include" />
             <e p="CLock.cs" t="Include" />
             <e p="Date.cs" t="Include" />
-            <e p="UIClass.cs" t="Include" />
             <e p="UIController.cs" t="Include" />
             <e p="UpDownSpeed.cs" t="Include" />
           </e>
