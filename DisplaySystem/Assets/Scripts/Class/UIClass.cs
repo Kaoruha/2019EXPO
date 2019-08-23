@@ -21,7 +21,7 @@ public class UIClass : MonoBehaviour {
 
     
 
-    private float _RCUIMoveSpeed = 5f;
+    private float _RCUIMoveSpeed = 1800f;
 
     public void SetMoveSpeed(float speed) {
         if (speed >= 0f) {
@@ -41,7 +41,6 @@ public class UIClass : MonoBehaviour {
         }
     }
 
-    private float _RCUIArriveOffSet = 1f;
 
     private Vector2 _RCUGUIPos = new Vector2(0,0);
     private Vector2 _RCUIInitialPos = new Vector2(0, 0);
@@ -83,7 +82,7 @@ public class UIClass : MonoBehaviour {
                     _RCUIState = RCUIState.shouldStay;
                 }
                 else {
-                    transform.Translate((Destination - _RCUIInitialPos) * _RCUIMoveSpeed * Time.deltaTime);
+                    transform.Translate(Time.deltaTime * _RCUIMoveSpeed * (Destination - _RCUIInitialPos).normalized);
                 }
                 break;
             
@@ -93,7 +92,7 @@ public class UIClass : MonoBehaviour {
                     _RCUIState = RCUIState.shouldStay;
                 }
                 else {
-                    transform.Translate((_RCUIInitialPos - Destination) * _RCUIMoveSpeed * Time.deltaTime);
+                    transform.Translate(Time.deltaTime * _RCUIMoveSpeed * (_RCUIInitialPos - Destination).normalized);
                 }
                 break;
             
