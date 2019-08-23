@@ -46,10 +46,14 @@ public class UIClass : MonoBehaviour {
     private Vector2 _RCUIInitialPos = new Vector2(0, 0);
     private float _RCInitialDis = 0f;
     
-    public void SetInitialPos(Vector2 initialPos) {
+    public void SetInitialPos(Vector2 initialPos , bool needToSetInitialPos) {
         _RCUIInitialPos = initialPos;
-        transform.position = initialPos;
+        if (needToSetInitialPos) {
+            transform.position = initialPos;
+        }
+        
     }
+    
     private void SetInitialDis(Vector2 destination) {
         _RCInitialDis = Vector2.Distance(destination, _RCUIInitialPos);
     }
