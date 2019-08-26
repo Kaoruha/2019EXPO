@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a02e8f6-e0d1-4729-abe2-45d46cba2576" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CloudManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CloudManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Cloud.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/CloudInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LightJson/JsonArray.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LightJson/JsonObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LightJson/JsonValue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LightJson/JsonValueType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LightJson/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LightJson/Serialization/JsonParseException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LightJson/Serialization/JsonReader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LightJson/Serialization/JsonSerializationException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LightJson/Serialization/JsonWriter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LightJson/Serialization/TextPosition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LightJson/Serialization/TextScanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CloudManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/BasicInfo/Cloud.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/BasicInfo/CloudInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/BasicInfo/CloudInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class/CloudClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Class/CloudClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Materials/CosmicCoolCloud.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Materials/CosmicCoolCloud.mat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +32,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/Setting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/NoiseAndScratches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/PostEffectsBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/LitJson/JsonData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/CloudClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/LitJson/JsonMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/Blur.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CloudManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/PostEffectsBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightTrace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/CloudManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/LitJson/Lexer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/UIController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/CLock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CloudName.cs" root0="FORCE_HIGHLIGHTING" />
@@ -77,9 +72,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Cloud.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Setting/GUIScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/CloudClass.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/BasicInfo/CloudInfo.json" />
         <option value="$PROJECT_DIR$/Assets/CloudManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/CloudClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Setting/CloudManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/BasicInfo/CloudInfo.json" />
       </list>
     </option>
   </component>
@@ -154,7 +150,8 @@
       <workItem from="1566544433911" duration="4891000" />
       <workItem from="1566549807356" duration="4865000" />
       <workItem from="1566555768836" duration="2632000" />
-      <workItem from="1566786188663" duration="10182000" />
+      <workItem from="1566786188663" duration="18895000" />
+      <workItem from="1566809509892" duration="666000" />
     </task>
     <servers />
   </component>
