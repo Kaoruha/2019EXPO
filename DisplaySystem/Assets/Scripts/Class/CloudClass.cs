@@ -3,85 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CloudClass{
+    
+    //CLoudName
     public enum cloudName {
         istack,
         medCloud,
         riverCloud,
         constructionCloud
     }
-
+    
     private cloudName _name;
-    private int _id;
-    
-    private float _upLoadRate;
-    private float _downLoadRate;
-
-    private float _bandWidthNow;
-    private float _bandWidthMax;
-    private List<float> _last12BandWidths;
-    
-    
-    private List<float> _last6Visits;
-    
-    
-    private List<float> _last9Responses;
-    private float _responseMax;
-
-
-    private float _responseAvg;
-
-    private float _ramMax;
-    private List<float> _last12Rams;
-
-
-    private float _discMax;
-    private List<int> _discNums;
-    private List<float> _last24DiscUses;
-    private float _discInput;
-    private float _discOutput;
-
-
-    private int _cpuNum;
-    private float _cpuRate;
-
-
-    private List<string> _Apps;
-    private int _appNum;
-
-
-    public CloudClass(cloudName name, int id, float upLoadRate, float downLoadRate, float bandWidthNow, float bandWidthMax, List<float> last12BandWidths, List<float> last6Visits, List<float> last9Responses, float responseMax, float responseAvg, float ramMax, List<float> last12Rams, float discMax, List<int> discNums, List<float> last24DiscUses, float discInput, float discOutput, int cpuNum, float cpuRate, List<string> apps, int appNum) {
-        _name = name;
-        _id = id;
-        _upLoadRate = upLoadRate;
-        _downLoadRate = downLoadRate;
-        _bandWidthNow = bandWidthNow;
-        _bandWidthMax = bandWidthMax;
-        _last12BandWidths = last12BandWidths;
-        _last6Visits = last6Visits;
-        _last9Responses = last9Responses;
-        _responseMax = responseMax;
-        _responseAvg = responseAvg;
-        _ramMax = ramMax;
-        _last12Rams = last12Rams;
-        _discMax = discMax;
-        _discNums = discNums;
-        _last24DiscUses = last24DiscUses;
-        _discInput = discInput;
-        _discOutput = discOutput;
-        _cpuNum = cpuNum;
-        _cpuRate = cpuRate;
-        _Apps = apps;
-        _appNum = appNum;
-    }
-
     public void SetName(cloudName cn) {
         this._name = cn;
     }
 
-    public string GetName() {
-        return this._name.ToString();
+    public cloudName GetName() {
+        return this._name;
     }
-
+    
+    
+    //ID
+    private int _id;
     public void SetID(int id) {
         this._id = id;
     }
@@ -90,6 +32,21 @@ public class CloudClass{
         return this._id;
     }
     
+    
+    
+    //Description
+    private string _description;
+    public void SetDes(string description) {
+        this._description = description;
+    }
+
+    public string GetDes() {
+        return this._description;
+    }
+    
+    
+    //UploadRate
+    private float _upLoadRate;
     public void SetUpLoadRate(float upLoadRate) {
         this._upLoadRate = upLoadRate;
     }
@@ -98,6 +55,11 @@ public class CloudClass{
         return this._upLoadRate;
     }
     
+    
+    
+    
+    //DownLoadRate
+    private float _downLoadRate;
     public void SetDownLoadRate(float downLoadRate) {
         this._downLoadRate = downLoadRate;
     }
@@ -106,6 +68,9 @@ public class CloudClass{
         return this._downLoadRate;
     }
     
+    
+    //BandWidthNow
+    private float _bandWidthNow;
     public void SetBandWidthNow(float bandWidthNow) {
         this._bandWidthNow = bandWidthNow;
     }
@@ -114,45 +79,63 @@ public class CloudClass{
         return this._bandWidthNow;
     }
     
+    
+    
+    //BandWidthMax
+    private float _bandWidthMax;
     public void SetBandWidthMax(float bandWidthMax) {
         this._bandWidthMax = bandWidthMax;
     }
-
     public float GetBandWidthMax() {
         return this._bandWidthMax;
     }
-    public void SetLast12BandWidths(List<float> lastBandWidths) {
-        for (int i =0;i<lastBandWidths.Count;i++) {
-            this._last12BandWidths.Add(lastBandWidths[i]);	
+    
+    
+    
+    //Last12BandWidths
+    private float[] _last12BandWidths;
+    public void SetLast12BandWidths(float[] lastBandWidths) {
+        for (int i =0;i<lastBandWidths.Length;i++) {
+            this._last12BandWidths[i] = lastBandWidths[i];	
         }
     }
 
-    public List<float> GetLast12BandWidths() {
+    public float[] GetLast12BandWidths() {
         return this._last12BandWidths;
     }
     
-    public void SetLast6Visits(List<float> lastVisits) {
-        for (int i =0;i<lastVisits.Count;i++) {
-            this._last6Visits.Add(lastVisits[i]);	
+    
+    
+    //Last 6 Visits
+    private int[] _last6Visits;
+    public void SetLast6Visits(int[] lastVisits) {
+        for (int i =0;i<lastVisits.Length;i++) {
+            this._last6Visits[i] = lastVisits[i];	
         }
     }
 
-    public List<float> GetLast6Visits() {
+    public int[] GetLast6Visits() {
         return this._last6Visits;
     }
     
     
-    public void SetLast9Responses(List<float> lastRespons) {
-        for (int i =0;i<lastRespons.Count;i++) {
-            this._last9Responses.Add(lastRespons[i]);	
+    
+    //Last 9 Responses
+    private float[] _last9Responses;
+    public void SetLast9Responses(float[] lastRespons) {
+        for (int i =0;i<lastRespons.Length;i++) {
+            this._last9Responses[i] = lastRespons[i];	
         }
     }
 
-    public List<float> GetLast9Responses() {
+    public float[] GetLast9Responses() {
         return this._last9Responses;
     }
     
     
+    
+    //ResponseMax
+    private float _responseMax;
     public void SetResponseMax(float responseMax) {
         this._responseMax = responseMax;
     }
@@ -160,8 +143,10 @@ public class CloudClass{
     public float GetResponseMax() {
         return this._responseMax;
     }
+
     
-    
+    //ResponseAvg
+    private float _responseAvg;
     public void SetResponseAvg(float responseAvg) {
         this._responseAvg = responseAvg;
     }
@@ -171,6 +156,8 @@ public class CloudClass{
     }
     
     
+    //RamMax
+    private float _ramMax;
     public void SetRamMax(float ramMax) {
         this._ramMax = ramMax;
     }
@@ -179,17 +166,24 @@ public class CloudClass{
         return this._ramMax;
     }
     
-    public void SetLast12Rams(List<float> lasRams) {
-        for (int i =0;i<lasRams.Count;i++) {
-            this._last12Rams.Add(lasRams[i]);	
+    
+    
+    //Last 12 Rams
+    private float[] _last12Rams;
+    public void SetLast12Rams(float[] lasRams) {
+        for (int i =0;i<lasRams.Length;i++) {
+            this._last12Rams[i] = lasRams[i];	
         }
     }
 
-    public List<float> GetLast12Rams() {
+    public float[] GetLast12Rams() {
         return this._last12Rams;
     }
+
     
-        
+    
+    //DiscMax
+    private float _discMax;
     public void SetDiscMax(float discMax) {
         this._discMax = discMax;
     }
@@ -200,28 +194,38 @@ public class CloudClass{
     
     
     
-    public void SetDiscNums(List<int> discNums) {
-        for (int i =0;i<discNums.Count;i++) {
-            this._discNums.Add(discNums[i]);	
+    //DiscNums
+    private int[] _discNums;
+    public void SetDiscNums(int[] discNums) {
+        for (int i =0;i<discNums.Length;i++) {
+            this._discNums[i] = discNums[i];	
         }
     }
 
-    public List<int> GetDiscNums() {
+    public int[] GetDiscNums() {
         return this._discNums;
     }
     
-        
-    public void SetLast24DiscUses(List<float> lasDiscs) {
-        for (int i =0;i<lasDiscs.Count;i++) {
-            this._last24DiscUses.Add(lasDiscs[i]);	
+    
+    
+    
+    //Last 24 DiscUses
+    private float[] _last24DiscUses;    
+    public void SetLast24DiscUses(float[] lasDiscs) {
+        for (int i =0;i<lasDiscs.Length;i++) {
+            this._last24DiscUses[i] = lasDiscs[i];	
         }
     }
 
-    public List<float> GetLast24DiscUses() {
+    public float[] GetLast24DiscUses() {
         return this._last24DiscUses;
     }
     
     
+    
+    
+    //DiscInput
+    private float _discInput;
     public void SetDiscInput(float discInput) {
         this._discInput = discInput;
     }
@@ -231,6 +235,10 @@ public class CloudClass{
     }
     
     
+    
+    
+    //DiscOutput
+    private float _discOutput;
     public void SetDiscOutput(float discOutput) {
         this._discOutput = discOutput;
     }
@@ -240,16 +248,26 @@ public class CloudClass{
     }
     
     
-    public void SetCpuNum(int cpuNums) {
-        this._cpuNum = cpuNums;
+    
+
+    //CpuNums
+    private int[] _cpuNum;
+    public void SetCpuNum(int[] cpuNums) {
+        for (int i = 0; i < cpuNums.Length; i++) {
+            this._cpuNum[i] = cpuNums[i];            
+        }
     }
 
-    public int GetCpuNum() {
+    public int[] GetCpuNum() {
         return this._cpuNum;
     }
     
     
     
+    
+    
+    //CpuRate
+    private float _cpuRate;
     public void SetCpuRate(float cpuRate) {
         this._cpuRate = cpuRate;
     }
@@ -258,20 +276,29 @@ public class CloudClass{
         return this._cpuRate;
     }
 
-
-    public void SetApps(List<string> appNames) {
-        for (int i = 0; i < appNames.Count; i++) {
-            this._Apps.Add(appNames[i]);
+    
+    
+    //AppNames
+    private string[] _Apps;
+    public void SetApps(string[] appNames) {
+        for (int i = 0; i < appNames.Length; i++) {
+            _Apps[i] = appNames[i];
         }
         
     }
 
-    public List<string> GetApps() {
+    public string[] GetApps() {
+        for (int i = 0; i < _Apps.Length; i++) {
+            Debug.Log(_Apps[i]);
+        }
         return this._Apps;
     }
-
-
-
+    
+    
+    
+    
+    //Appnum
+    private int _appNum;
     public void SetAppNum(int appNum) {
         this._appNum = appNum;
     }
@@ -280,7 +307,31 @@ public class CloudClass{
         return this._appNum;
     }
 
-    
 
+    public CloudClass(cloudName name, int id,string des,float ramMax, float discMax, int[] discNums, int[] cpuNum, string[] apps) {
+        _name = name;
+        _id = id;
+        _description = des;
+        _upLoadRate = 0f;
+        _downLoadRate = 0f;
+        _bandWidthNow = 0f;
+        _bandWidthMax = 0f;
+        _last12BandWidths = new float[12] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        _last6Visits = new int[6] {0, 0, 0, 0, 0, 0};
+        _last9Responses = new float[9]{0, 0, 0, 0, 0, 0, 0, 0, 0};
+        _responseMax = 0f;
+        _responseAvg = 0f;
+        _ramMax = ramMax;
+        _last12Rams = new float[12] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        _discMax = discMax;
+        _discNums = discNums;
+        _last24DiscUses = new float[24] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        _discInput = 0f;
+        _discOutput = 0f;
+        _cpuNum = cpuNum;
+        _cpuRate = 0f;
+        _Apps = apps;
+        _appNum = apps.Length;
+    }
     
 }
