@@ -30,10 +30,107 @@ public class CloudManager : MonoBehaviour {
         ParseRealTimeData();
     }
 
-    private List<CloudClass> CloudList;
+    private List<CloudClass> cloudList;
+    
+    #region ReadDate
+    public CloudClass.cloudName GetName(int cloudId) {
+        return cloudList[cloudId].GetName();
+    }
+
+
+    public string GetDes(int cloudId) {
+        return cloudList[cloudId].GetDes();
+    }
+
+    public float GetUpLoadRate(int cloudId) {
+        return cloudList[cloudId].GetUpLoadRate();
+    }
+    
+    public float GetDownLoadRate(int cloudId) {
+        return cloudList[cloudId].GetDownLoadRate();
+    }
+
+    public float GetFlowAvg(int cloudId) {
+        return cloudList[cloudId].GetFlowAvg();
+    }
+    
+    public float GetFlowMax(int cloudId) {
+        return cloudList[cloudId].GetFlowMax();
+    }
+    
+    public float[] GetLast12Flows(int cloudId) {
+        return cloudList[cloudId].GetLast12Flows();
+    }
+    
+    public int[] GetLast6Visits(int cloudId) {
+        return cloudList[cloudId].GetLast6Visits();
+    }
+    
+    public float[] GetLast9Responses(int cloudId) {
+        return cloudList[cloudId].GetLast9Responses();
+    }
+
+    public float GetResponseMax(int cloudId) {
+        return cloudList[cloudId].GetResponseMax();
+    }
+    public float GetResponseAvg(int cloudId) {
+        return cloudList[cloudId].GetResponseAvg();
+    }
+    
+    public float GetRamMax(int cloudId) {
+        return cloudList[cloudId].GetRamMax();
+    }
+    
+    public float[] GetLast12Rams(int cloudId) {
+        return cloudList[cloudId].GetLast12Rams();
+    }
+
+    public float GetDiscMax(int cloudId) {
+        return cloudList[cloudId].GetDiscMax();
+    }
+    
+    public int[] GetDiscNums(int cloudId) {
+        return cloudList[cloudId].GetDiscNums();
+    }
+    
+    public float[] GetLast24DiscUses(int cloudId) {
+        return cloudList[cloudId].GetLast24DiscUses();
+    }
+    
+    public float GetDiscInput(int cloudId) {
+        return cloudList[cloudId].GetDiscInput();
+    }
+    
+    public float GetDiscOutput(int cloudId) {
+        return cloudList[cloudId].GetDiscOutput();
+    }
+    
+    public int[] GetCpuNum(int cloudId) {
+        return cloudList[cloudId].GetCpuNum();
+    }
+    
+
+    public float GetCpuRate(int cloudId) {
+        return cloudList[cloudId].GetCpuRate();
+    }
+
+    public string[] GetApps(int cloudId) {
+        return cloudList[cloudId].GetApps();
+    }
+    
+
+    public int GetAppNum(int cloudId) {
+        return cloudList[cloudId].GetAppNum();
+    }
+    
+    
+    
+    
+    
+    #endregion
 
     private void ParseCloudJson() {
-        CloudList = new List<CloudClass>();
+        cloudList = new List<CloudClass>();
         TextAsset cloudText = Resources.Load<TextAsset>("BasicInfo/CloudInfo");
         string cloudjson = cloudText.text;
         JsonData jsonData = JsonMapper.ToObject(cloudjson);
@@ -85,12 +182,14 @@ public class CloudManager : MonoBehaviour {
             }
             
             CloudClass cloud = new CloudClass(cloudName,id,des,ramMax,discMax,discArray,cpuArray,appArray);
-            CloudList.Add(cloud);
+            cloudList.Add(cloud);
         }
     }
 
     
-    private void ParseRealTimeData() {
+    public void ParseRealTimeData() {
         
     }
+
+    
 }
