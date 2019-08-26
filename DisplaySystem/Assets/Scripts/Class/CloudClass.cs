@@ -70,38 +70,38 @@ public class CloudClass{
     
     
     //BandWidthNow
-    private float _bandWidthNow;
-    public void SetBandWidthNow(float bandWidthNow) {
-        this._bandWidthNow = bandWidthNow;
+    private float _flowAvg;
+    public void SetFlowAvg(float flowAVG) {
+        this._flowAvg = flowAVG;
     }
 
-    public float GetBandWidthNow() {
-        return this._bandWidthNow;
+    public float GetFlowAvg() {
+        return this._flowAvg;
     }
     
     
     
     //BandWidthMax
-    private float _bandWidthMax;
-    public void SetBandWidthMax(float bandWidthMax) {
-        this._bandWidthMax = bandWidthMax;
+    private float _flowMax;
+    public void SetFlowMax(float flowMax) {
+        this._flowMax = flowMax;
     }
-    public float GetBandWidthMax() {
-        return this._bandWidthMax;
+    public float GetFlowMax() {
+        return this._flowMax;
     }
     
     
     
-    //Last12BandWidths
-    private float[] _last12BandWidths;
-    public void SetLast12BandWidths(float[] lastBandWidths) {
-        for (int i =0;i<lastBandWidths.Length;i++) {
-            this._last12BandWidths[i] = lastBandWidths[i];	
+    //Last12Flows
+    private float[] _last12Flows;
+    public void SetLast12Flows(float[] last12Flows) {
+        for (int i =0;i<last12Flows.Length;i++) {
+            this._last12Flows[i] = last12Flows[i];	
         }
     }
 
-    public float[] GetLast12BandWidths() {
-        return this._last12BandWidths;
+    public float[] GetLast12Flows() {
+        return this._last12Flows;
     }
     
     
@@ -314,9 +314,9 @@ public class CloudClass{
         _description = des;
         _upLoadRate = 0f;
         _downLoadRate = 0f;
-        _bandWidthNow = 0f;
-        _bandWidthMax = 0f;
-        _last12BandWidths = new float[12] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        _flowAvg = 0f;
+        _flowMax = 0f;
+        _last12Flows = new float[12] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         _last6Visits = new int[6] {0, 0, 0, 0, 0, 0};
         _last9Responses = new float[9]{0, 0, 0, 0, 0, 0, 0, 0, 0};
         _responseMax = 0f;
