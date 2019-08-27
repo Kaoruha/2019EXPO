@@ -107,15 +107,19 @@ public class CloudClass{
     
     
     //Last 6 Visits
-    private int[] _last6Visits;
-    public void SetLast6Visits(int[] lastVisits) {
-        for (int i =0;i<lastVisits.Length;i++) {
-            this._last6Visits[i] = lastVisits[i];	
+    private List<int[]> _last24Visits;
+    public void SetLast24Visits(List<int[]> lastVisits) {
+        for (int j = 0; j < lastVisits.Count; j++) {
+            int[] temp = new int[lastVisits[j].Length];
+            for (int i = 0; i < lastVisits[j].Length;i++) {
+                temp[i] = lastVisits[j][i];
+            }
+            _last24Visits.Add(temp);
         }
     }
 
-    public int[] GetLast6Visits() {
-        return this._last6Visits;
+    public List<int[]> GetLast24Visits() {
+        return this._last24Visits;
     }
     
     
@@ -317,7 +321,7 @@ public class CloudClass{
         _flowAvg = 0f;
         _flowMax = 0f;
         _last12Flows = new float[12] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-        _last6Visits = new int[6] {0, 0, 0, 0, 0, 0};
+        _last24Visits = new List<int[]>();
         _last9Responses = new float[9]{0, 0, 0, 0, 0, 0, 0, 0, 0};
         _responseMax = 0f;
         _responseAvg = 0f;
