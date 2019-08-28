@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a02e8f6-e0d1-4729-abe2-45d46cba2576" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BasicInfo/CloudRealTimeData.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BarGraphic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BarGraphic.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class/CloudClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Class/CloudClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/CLock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/CLock.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Setting/CloudManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Setting/CloudManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Materials/CosmicCoolCloud.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Materials/CosmicCoolCloud.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Texures/GUI/L1_Border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Texures/GUI/L1_Border.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Texures/GUI/R1_Border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Texures/GUI/R1_Border.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reference/Output/1x/L1_Border.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Reference/Output/1x/L1_Border.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reference/Output/1x/R1_Border.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,6 +161,7 @@
       <workItem from="1566811038717" duration="2705000" />
       <workItem from="1566870966322" duration="21353000" />
       <workItem from="1566908742543" duration="2265000" />
+      <workItem from="1566963872695" duration="10904000" />
     </task>
     <servers />
   </component>

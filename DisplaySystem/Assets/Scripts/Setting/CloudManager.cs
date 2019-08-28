@@ -24,12 +24,13 @@ public class CloudManager : MonoBehaviour {
 
     private void Awake() {
         ParseCloudJson();
-    }
-
-    private void Start() {
         ParseRealHourData();
         ParseRealSecData();
         Debug.Log(cloudList[1].GetLast12Flows()[2]);
+    }
+
+    private void Start() {
+        
 
     }
   
