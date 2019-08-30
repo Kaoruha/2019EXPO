@@ -10,7 +10,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="BarGraphic.cs" t="Include" />
         <e p="Lagacy Image Effects" t="Include">
           <e p="Editor" t="Include">
             <e p="ImageEffects" t="Include">
@@ -166,8 +165,10 @@
             <e p="ParserToken.cs" t="Include" />
           </e>
         </e>
-        <e p="RadioEffect.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="AlertEffect.cs" t="Include" />
+          <e p="BarGraphic.cs" t="Include" />
+          <e p="Cake.cs" t="Include" />
           <e p="Class" t="Include">
             <e p="CloudClass.cs" t="Include" />
             <e p="GraphicClass.cs" t="Include" />
@@ -175,6 +176,7 @@
           </e>
           <e p="Cloud.cs" t="Include" />
           <e p="CloudName.cs" t="Include" />
+          <e p="CPUManeger.cs" t="Include" />
           <e p="GUI" t="Include">
             <e p="Case.cs" t="Include" />
             <e p="CLock.cs" t="Include" />
@@ -182,9 +184,12 @@
             <e p="UIController.cs" t="Include" />
             <e p="UpDownSpeed.cs" t="Include" />
           </e>
+          <e p="InstanceMatrix.cs" t="Include" />
           <e p="LightTrace.cs" t="Include" />
           <e p="LineMaker.cs" t="Include" />
           <e p="MeshGenerater.cs" t="Include" />
+          <e p="RadioEffect.cs" t="Include" />
+          <e p="RandomWidth.cs" t="Include" />
           <e p="Setting" t="Include">
             <e p="CameraControl.cs" t="Include" />
             <e p="CloudManager.cs" t="Include" />
@@ -194,6 +199,8 @@
             <e p="PostEffectsBase.cs" t="Include" />
             <e p="Setting.cs" t="Include" />
           </e>
+          <e p="TextSpacing.cs" t="Include" />
+          <e p="Tiktok.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
           <e p="Edge.shader" t="Include" />

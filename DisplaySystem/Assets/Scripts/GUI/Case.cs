@@ -17,14 +17,25 @@ public class Case : UIClass {
     private Vector2 screenCenter = new Vector2();
     private float distance;
     private float targetSpeed;
+    private int currentPage;
+    public Transform content;
+    private Transform[] pages;
 
     private void Awake() {
+        currentPage = 1;
         screenCenter = new Vector2(UnityEngine.Screen.width/2,UnityEngine.Screen.height/2);
         transform.localScale = new Vector3(0,0,0);
         
         
         targetPos = new Vector2(960,540);
     }
+
+    private void Start() {
+        InitializePages();
+
+
+    }
+
 
     public void MoveIn() {
         screenPos = Camera.main.WorldToScreenPoint(btnFrom.position);
@@ -45,6 +56,7 @@ public class Case : UIClass {
         uiController.ShouldIn();
         SetState(RCUIState.shouldOut);
         StartCoroutine(ZoomOut());
+        currentPage = 1;
 
     }
 
@@ -75,5 +87,47 @@ public class Case : UIClass {
     private void ChangeSpeed() {
         targetSpeed = 1400f * distance / 260f;
         SetMoveSpeed(targetSpeed);
+    }
+
+
+    private void InitializePages() {
+        pages = new Transform[content.childCount];
+        for (int i = 0; i < content.childCount; i++) {
+            pages[i] = content.GetChild(i);
+        }
+        showPage(currentPage);
+    }
+
+
+    public void PageUp() {
+        if (currentPage < content.childCount) {
+            currentPage++;
+            showPage(currentPage);
+        }
+        else {
+            currentPage = content.childCount;
+        }
+    }
+
+    public void PageDown() {
+        if (currentPage > 1) {
+            currentPage--;
+            showPage(currentPage);
+        }
+        else {
+            currentPage = 1;
+        }
+        
+    }
+
+    private void showPage(int id) {
+        for (int i = 0; i < pages.Length; i++) {
+            if (i == currentPage -1) {
+                pages[i].gameObject.SetActive(true);
+            }
+            else {
+                pages[i].gameObject.SetActive(false);
+            }
+        }
     }
 }

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a02e8f6-e0d1-4729-abe2-45d46cba2576" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BarGraphic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BarGraphic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BarGraphic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RadioEffect.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/CLock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/CLock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Setting/CloudManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Setting/CloudManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Materials/CosmicCoolCloud.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Materials/CosmicCoolCloud.mat" afterDir="false" />
     </list>
@@ -20,18 +24,19 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ImageEffectBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextSpacing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/UpDownSpeed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cloud.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/GUIScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/Setting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/NoiseAndScratches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/PostEffectsBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BarGraphic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/LitJson/JsonData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/LitJson/JsonMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/PostEffectsBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/LitJson/Lexer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RadioEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstanceMatrix.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/UIClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/WireFrame.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ContrastStretch.cs" root0="FORCE_HIGHLIGHTING" />
@@ -68,7 +73,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/UIClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/UIClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cloud.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Setting/GUIScript.cs" />
         <option value="$PROJECT_DIR$/Assets/CloudManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/BasicInfo/CloudInfo.json" />
@@ -77,11 +81,22 @@
         <option value="$PROJECT_DIR$/Assets/Resources/BasicInfo/CloudRealTimePerSec.json" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/CloudClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/BasicInfo/CloudRealTimePerHour.json" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/CLock.cs" />
         <option value="$PROJECT_DIR$/Assets/RadioEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/GraphicClass.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Setting/CloudManager.cs" />
         <option value="$PROJECT_DIR$/Assets/BarGraphic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Setting/CloudManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/CLock.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tiktok.cs" />
+        <option value="$PROJECT_DIR$/Assets/AlertEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/RandomWidth.cs" />
+        <option value="$PROJECT_DIR$/Assets/CPUManeger.cs" />
+        <option value="$PROJECT_DIR$/Assets/CPUMatrix.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CPUMatrix.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstanceMatrix.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cake.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" />
+        <option value="$PROJECT_DIR$/Assets/TextSpacing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextSpacing.cs" />
       </list>
     </option>
   </component>
@@ -162,6 +177,7 @@
       <workItem from="1566870966322" duration="21353000" />
       <workItem from="1566908742543" duration="2265000" />
       <workItem from="1566963872695" duration="10904000" />
+      <workItem from="1567045431245" duration="20922000" />
     </task>
     <servers />
   </component>

@@ -26,7 +26,6 @@ public class CloudManager : MonoBehaviour {
         ParseCloudJson();
         ParseRealHourData();
         ParseRealSecData();
-        Debug.Log(cloudList[1].GetLast12Flows()[2]);
     }
 
     private void Start() {
