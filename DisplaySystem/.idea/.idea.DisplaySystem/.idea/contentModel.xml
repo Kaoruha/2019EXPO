@@ -199,7 +199,6 @@
             <e p="PostEffectsBase.cs" t="Include" />
             <e p="Setting.cs" t="Include" />
           </e>
-          <e p="TextSpacing.cs" t="Include" />
           <e p="Tiktok.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">

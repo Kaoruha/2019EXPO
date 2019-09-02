@@ -57,6 +57,7 @@ public class Case : UIClass {
         SetState(RCUIState.shouldOut);
         StartCoroutine(ZoomOut());
         currentPage = 1;
+        showPage(currentPage);
 
     }
 

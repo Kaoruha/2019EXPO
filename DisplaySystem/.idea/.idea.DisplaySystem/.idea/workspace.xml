@@ -4,13 +4,14 @@
     <list default="true" id="0a02e8f6-e0d1-4729-abe2-45d46cba2576" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DisplaySystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BarGraphic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RadioEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CpuInstance.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CpuInstance.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/CLock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/CLock.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Setting/CloudManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Setting/CloudManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Setting/CameraControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Setting/CameraControl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Materials/CosmicCoolCloud.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Materials/CosmicCoolCloud.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Texures/istack介绍/幻灯片17.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Texures/istack介绍/幻灯片17.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Texures/istack介绍/幻灯片18.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Texures/istack介绍/幻灯片18.JPG" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,17 +25,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/ImageEffectBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextSpacing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/UpDownSpeed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cloud.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/GUIScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/Setting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/NoiseAndScratches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/PostEffectsBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Setting/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/LitJson/JsonData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/LitJson/JsonMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lagacy Image Effects/Effects/ImageEffects/Scripts/PostEffectsBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/LitJson/JsonWriter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/LitJson/Lexer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstanceMatrix.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/UIClass.cs" root0="FORCE_HIGHLIGHTING" />
@@ -94,9 +96,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CPUMatrix.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceMatrix.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cake.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" />
         <option value="$PROJECT_DIR$/Assets/TextSpacing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextSpacing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/Case.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Setting/CameraControl.cs" />
       </list>
     </option>
   </component>
@@ -178,6 +181,10 @@
       <workItem from="1566908742543" duration="2265000" />
       <workItem from="1566963872695" duration="10904000" />
       <workItem from="1567045431245" duration="20922000" />
+      <workItem from="1567133190183" duration="1097000" />
+      <workItem from="1567399971481" duration="45000" />
+      <workItem from="1567400036600" duration="3000" />
+      <workItem from="1567400321813" duration="11907000" />
     </task>
     <servers />
   </component>
